@@ -55,20 +55,14 @@ https://github.com/your-username/your-repo-name/assets/your-video-id/RecipeShare
 
 ## 🔐 Setting Environment Variables
 
-Create `.env` files for both backend and frontend by running these commands in your terminal:
-
-### 📁 For `backend/.env`
-
 ```bash
-echo "PORT=5000" >> backend/.env
-echo "MONGODB_URI=your_mongodb_connection_string" >> backend/.env
-echo "JWT_SECRET=your_jwt_secret" >> backend/.env
-echo "CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name" >> backend/.env
-echo "CLOUDINARY_API_KEY=your_cloudinary_api_key" >> backend/.env
-echo "CLOUDINARY_API_SECRET=your_cloudinary_api_secret" >> backend/.env
+ PORT=5000 
+ MONGODB_URI=your_mongodb_connection_string
+ JWT_SECRET=your_jwt_secret
+ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+ CLOUDINARY_API_KEY=your_cloudinary_api_key
+ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
   
----
-## 🙋‍♀️ Author
-  Ashreet Kaur Shembe
+
 
