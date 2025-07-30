@@ -20,9 +20,6 @@ A minimal and user-friendly recipe sharing web app built with the MERN (MongoDB,
 
 https://github.com/your-username/your-repo-name/assets/your-video-id/RecipeShare_demo.mp4
 
-> 📌 To embed this video in GitHub properly:
-> - Upload this video directly to your **GitHub repo** under **"Releases"** or drag it into a GitHub **Issue or Comment**.
-> - GitHub will generate a proper `.mp4` asset link you can copy-paste here.
 
 ---
 
@@ -56,15 +53,20 @@ https://github.com/your-username/your-repo-name/assets/your-video-id/RecipeShare
     npm run dev
 ---
 
-## Environment Variables
-backend/.env ->
+## 🔐 Setting Environment Variables
 
-  PORT=5000
-  MONGODB_URI=your_mongodb_connection_string
-  JWT_SECRET=your_jwt_secret
-  CLOUDINARY_CLOUD_NAME=your_cloud_name
-  CLOUDINARY_API_KEY=your_api_key
-  CLOUDINARY_API_SECRET=your_api_secret
+Create `.env` files for both backend and frontend by running these commands in your terminal:
+
+### 📁 For `backend/.env`
+
+```bash
+echo "PORT=5000" >> backend/.env
+echo "MONGODB_URI=your_mongodb_connection_string" >> backend/.env
+echo "JWT_SECRET=your_jwt_secret" >> backend/.env
+echo "CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name" >> backend/.env
+echo "CLOUDINARY_API_KEY=your_cloudinary_api_key" >> backend/.env
+echo "CLOUDINARY_API_SECRET=your_cloudinary_api_secret" >> backend/.env
+
   
 ---
 ## 🙋‍♀️ Author
