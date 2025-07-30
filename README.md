@@ -18,7 +18,7 @@ A minimal and user-friendly recipe sharing web app built with the MERN (MongoDB,
 
 ## 📸 Demo
 
-https://github.com/your-username/your-repo-name/assets/your-video-id/RecipeShare_demo.mp4
+https://drive.google.com/file/d/1QPJhl1ipPUxYVh4CtqbaZWcSQm_FUxZA/view?usp=sharing
 
 
 ---
